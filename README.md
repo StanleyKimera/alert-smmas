@@ -221,7 +221,7 @@ hr {
 
 <div class="container">
     <h1>🔔 Alert Dashboard</h1>
-    <p style="color: #666; margin-bottom: 15px;">Real-time medicine expiry and stock alerts</p>
+    <p style="color: #000000; margin-bottom: 15px;">Real-time Medicine Expiry and Stock Alerts</p>
     
     <button onclick="location.reload()" class="refresh-btn">🔄 Refresh Alerts</button>
     
@@ -297,18 +297,18 @@ hr {
     <!-- Info Box -->
     <div style="margin-top: 30px; padding: 15px; background: #e7f3ff; border-radius: 8px;">
         <strong>ℹ️ Alert Information:</strong><br />
-        <span style="color:#e74c3c;">🔴 Critical Alerts</span> - Medicine out of stock or expiry within 7 days<br />
-        <span style="color:#f39c12;">🟡 Warning Alerts</span> - Low stock (below reorder level) or expiry within 30 days<br />
-        <span style="color:#3498db;">👁️ Acknowledge</span> - Mark alert as seen<br />
-        <span style="color:#2ecc71;">✅ Resolve</span> - Mark alert as resolved (Admin only)
+        <span style="color:#e74c3c;">🔴 Critical Alerts</span> - Medicine OUT OF STOCK or EXPIRING within 7 days<br />
+        <span style="color:#f39c12;">🟡 Warning Alerts</span> - LOW stock (below reorder level) or EXPIRING within 30 days<br />
+        <span style="color:#3498db;">👁️ Acknowledge</span> - Mark alert as SEEN<br />
+        <span style="color:#2ecc71;">✅ Resolve</span> - Mark alert as RESOLVED (Admin only)
     </div>
 </div>
 
 <script>
-// Auto-refresh every 60 seconds
+// Auto-refresh every 120 seconds
 setTimeout(function() {
     location.reload();
-}, 60000);
+}, 120000);
 </script>
 </body>
 </html>
